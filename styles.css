@@ -1,0 +1,110 @@
+
+@import url('https://rsms.me/inter/inter.css');
+html {font-family: 'Inter', sans-serif;}
+@supports (font-variation-settings: normal) {
+    html {font-family: 'Inter var', sans-serif;}
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 108px;
+    font-family: Inter, sans-serif;
+    line-height: 97.2px;
+    margin: 2rem auto;
+    background: #e8e8ed;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    width: min-content;
+}
+
+.sushi_heading {
+    display: inline-block;
+    margin: 2rem 6.3691rem;
+    width: fit-content;
+}
+
+#title {
+    padding: 1rem 1rem 1.5rem
+}
+
+h2 {
+    display: block;
+    font-weight: 900;
+    font-size: 3.5rem;
+    margin: 40px 0px 0px -1.5rem;
+    font-family: Inter, sans-serif;
+    padding: 0.3rem 1rem 0.6rem 2.5rem;
+    width: min-content;
+    border-radius: 0.4rem;
+}
+
+h2:hover {
+    background: #e8e8ed;
+}
+
+p, ul, ol {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 1rem 1rem;
+    line-height: 32.4px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+li:hover {
+    background: #ffffff;
+}
+
+img {
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.links-list {
+    padding: 0;
+    text-align: center;
+}
+
+.links-list li {
+    display: inline-block;
+    margin: 1rem 1rem;
+}
+
+.links-list a {
+    color:#292e31;
+    background-color: #dcdce0;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+
+.links-list a:hover {
+    background: #292e31;
+    color: white;
+}
+
+.numbers {
+    display: block;
+    color: #ffc312;
+    font-size: 0.45em;
+    font-weight: 300;
+    position:absolute;
+    margin: 1.85rem 0 0 -1.2em;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    font-feature-settings: "ss01", "ss03", "zero", "cv08", "cv11" 1;
+    color: rgb(41, 46, 49);
+    background: #f8f9fa;
+    max-width: 800px;
+    padding: 0rem;
+    margin: 0rem auto 5rem;
+    letter-spacing: -.014rem;
+    -webkit-font-smoothing: antialiased;
+}
